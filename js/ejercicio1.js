@@ -1,6 +1,4 @@
-// EXERCISE 1
 
-// ----Login-----
 const user = document.getElementById('user');
 const password = document.getElementById('password');
 const buttonSingin = document.getElementById('button_singin');
@@ -30,9 +28,9 @@ const singIn = ()=>{
     pUser.setAttribute('id','pUser');
     pPassword.setAttribute('id','pPassword');
 
-    h6Welcome.innerHTML=`Welcome <span class="text-primary">${user.value}</span>`
-    pUser.innerHTML=`<b class="text-success"> User Name: </b>${user.value}`;
-    pPassword.innerHTML=`<b class="text-success"> Password:</b> ${password.value}`;
+    h6Welcome.innerHTML=`Bienvenido <span class="text-white">${user.value}</span>`
+    pUser.innerHTML=`<b class="text-dark"> Usuario: </b>${user.value}`;
+    pPassword.innerHTML=`<b class="text-dark"> Contraseña:</b> ${password.value}`;
 
 }
 buttonSingin.addEventListener('click',()=>{

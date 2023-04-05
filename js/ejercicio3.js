@@ -11,10 +11,10 @@ btnCalculate3.addEventListener('click', () =>{
     const y = parseInt(ex3_second_number.value)
 
     if (x>y){
-        operation1.innerHTML=`<b>Adition: </b> ${x+y}`
-        operation2.innerHTML=`<b>Diference: </b> ${x-y}` 
+        operation1.innerHTML=`<b class="text-white"> Suma: </b> ${x+y}`
+        operation2.innerHTML=`<b class="text-white">Diferencia: </b> ${x-y}` 
     }else{
-        operation1.innerHTML=`<b>Product: </b> ${y*x}`
-        operation2.innerHTML=`<b>Division: </b> ${y/x}`
+        operation1.innerHTML=`<b class="text-white">Producto: </b> ${y*x}`
+        operation2.innerHTML=`<b class="text-white">Division: </b> ${y/x}`
     }
 })

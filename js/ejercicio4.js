@@ -18,6 +18,6 @@ ex4_btn_calculate.addEventListener('click',()=>{
         ex4_message.innerHTML="Regular"
     }else{
         ex4_message.classList="text-danger h5"
-        ex4_message.innerHTML="Reprobaste :c"
+        ex4_message.innerHTML="Reprobado"
     }
 })
